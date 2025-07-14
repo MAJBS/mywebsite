@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformamos Espacios, Construimos Sueños</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5; /* Light gray background */
+            color: #333;
+        }
+        /* Custom styles for icons - using Font Awesome for simplicity */
+        .icon-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 64px;
+            height: 64px;
+            background-color: #e0f2fe; /* Light blue */
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            color: #0d47a1; /* Dark blue */
+            font-size: 2rem;
+        }
+        /* Placeholder for Font Awesome if needed, otherwise use simple text/emoji */
+        /* You would typically link a Font Awesome CDN here if using icons */
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header and Navigation -->
+    <header class="bg-white shadow-md py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-600">Tu Constructora</a>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#inicio" class="text-gray-700 hover:text-blue-600 font-medium">Inicio</a></li>
+                    <li><a href="#nosotros" class="text-gray-700 hover:text-blue-600 font-medium">Nosotros</a></li>
+                    <li><a href="#servicios" class="text-gray-700 hover:text-blue-600 font-medium">Servicios</a></li>
+                    <li><a href="#proceso" class="text-gray-700 hover:text-blue-600 font-medium">Proceso</a></li>
+                    <li><a href="#proyectos" class="text-gray-700 hover:text-blue-600 font-medium">Proyectos</a></li>
+                    <li><a href="#contacto" class="text-gray-700 hover:text-blue-600 font-medium">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Página de Inicio (Home) -->
+        <section id="inicio" class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-24 text-center rounded-b-xl shadow-lg">
+            <div class="container mx-auto px-4">
+                <h1 class="text-5xl md:text-6xl font-extrabold mb-4 leading-tight">Transformamos Espacios, Construimos Sueños.</h1>
+                <h2 class="text-xl md:text-2xl mb-8 opacity-90">Remodelaciones y Ampliaciones con Calidad y Confianza en Trujillo, La Libertad.</h2>
+                <a href="#contacto" class="inline-block bg-white text-blue-700 hover:bg-blue-100 font-bold py-4 px-10 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+                    Cotiza tu Proyecto Gratis
+                </a>
+
+                <!-- Prueba Social Rápida -->
+                <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="p-6 bg-white bg-opacity-20 rounded-xl shadow-md backdrop-blur-sm">
+                        <div class="icon-container bg-white text-blue-600">👷</div> <!-- Icono de casco -->
+                        <h3 class="text-xl font-semibold mb-2">Experiencia Comprobada</h3>
+                        <p class="text-sm opacity-80">Liderados por maestros constructores con décadas de experiencia en el campo.</p>
+                    </div>
+                    <div class="p-6 bg-white bg-opacity-20 rounded-xl shadow-md backdrop-blur-sm">
+                        <div class="icon-container bg-white text-blue-600">📊</div> <!-- Icono de engranaje/laptop -->
+                        <h3 class="text-xl font-semibold mb-2">Gestión Transparente</h3>
+                        <p class="text-sm opacity-80">Control total de tu proyecto con reportes de avance y comunicación constante.</p>
+                    </div>
+                    <div class="p-6 bg-white bg-opacity-20 rounded-xl shadow-md backdrop-blur-sm">
+                        <div class="icon-container bg-white text-blue-600">✅</div> <!-- Icono de check -->
+                        <h3 class="text-xl font-semibold mb-2">Calidad Garantizada</h3>
+                        <p class="text-sm opacity-80">Nos obsesionamos con los detalles y acabados para un resultado que supere tus expectativas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Servicios (visual) - Home Page -->
+        <section class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold text-gray-800 mb-12">Nuestros Servicios Principales</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                        <img src="cocina.jpg" alt="Remodelación de Cocinas y Baños" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Remodelaciones de Cocinas y Baños</h3>
+                            <p class="text-gray-600 text-sm">Modernizamos tus espacios más importantes con diseño y funcionalidad.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                        <img src="ampliaciones.jpg" alt="Ampliaciones y Construcción de Nuevos Ambientes" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Ampliaciones y Nuevos Ambientes</h3>
+                            <p class="text-gray-600 text-sm">Creamos el espacio adicional que tu familia necesita, integrado perfectamente.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                        <img src="acabados.jpg" alt="Acabados y Pintura Profesional" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Acabados y Pintura Profesional</h3>
+                            <p class="text-gray-600 text-sm">El toque final que realza la belleza y durabilidad de tus espacios.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                        <img src="integral.jpg" alt="Remodelaciones Integrales de Departamentos y Casas" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Remodelaciones Integrales</h3>
+                            <p class="text-gray-600 text-sm">Renovación completa de tu hogar o departamento, sin preocupaciones.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Página "Sobre Nosotros" o "Nuestra Historia" -->
+        <section id="nosotros" class="py-20 bg-white shadow-inner">
+            <div class="container mx-auto px-4 text-center max-w-3xl">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8">La Unión Perfecta entre Tradición y Modernidad</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                    Nuestra empresa nació de una conversación entre amigos: <strong>Luis Angel</strong>, un apasionado constructor que creció entre planos y cemento, aprendiendo el oficio de su padre, un respetado maestro de obra; y <strong>Maycol</strong>, un gestor y tecnólogo convencido de que los proyectos de construcción pueden y deben manejarse con total transparencia y eficiencia.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-12">
+                    Decidimos unir lo mejor de dos mundos: la sabiduría y el 'saber hacer' de la construcción tradicional, con las herramientas de gestión y la comunicación digital que garantizan orden, claridad y tranquilidad para nuestros clientes. No solo construimos paredes, construimos confianza.
+                </p>
+
+                <!-- Fotos de los Socios -->
+                <div class="flex flex-col md:flex-row justify-center items-center gap-8 mb-12">
+                    <div class="text-center">
+                        <img src="https://placehold.co/200x200/F0F8FF/000000?text=Foto+Socio" alt="Foto de [Nombre del Socio]" class="w-48 h-48 rounded-full object-cover mx-auto mb-4 shadow-lg">
+                        <h3 class="text-xl font-semibold text-gray-800">Luis Angel Paredes</h3>
+                        <p class="text-gray-600">Maestro Constructor</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="https://placehold.co/200x200/E0FFFF/000000?text=Tu+Foto" alt="Tu Foto" class="w-48 h-48 rounded-full object-cover mx-auto mb-4 shadow-lg">
+                        <h3 class="text-xl font-semibold text-gray-800">Maycol Benavides</h3>
+                        <p class="text-gray-600">Gestor y Tecnólogo</p>
+                    </div>
+                    <!-- Optional: Photo of partner with father -->
+                    <!-- <div class="text-center">
+                        <img src="https://placehold.co/200x200/FFFACD/000000?text=Socio+y+Padre" alt="Foto de [Nombre del Socio] y su padre" class="w-48 h-48 rounded-full object-cover mx-auto mb-4 shadow-lg">
+                        <h3 class="text-xl font-semibold text-gray-800">Legado Familiar</h3>
+                        <p class="text-gray-600">Tradición y Experiencia</p>
+                    </div> -->
+                </div>
+
+                <!-- Nuestra Misión y Valores -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+                    <div class="bg-blue-50 p-8 rounded-xl shadow-md">
+                        <h3 class="text-2xl font-bold text-blue-700 mb-4">Nuestra Misión</h3>
+                        <p class="text-gray-700">
+                            Hacer de cada proyecto de remodelación una experiencia positiva y emocionante para nuestros clientes, entregando resultados de alta calidad de forma puntual y transparente.
+                        </p>
+                    </div>
+                    <div class="bg-blue-50 p-8 rounded-xl shadow-md">
+                        <h3 class="text-2xl font-bold text-blue-700 mb-4">Nuestros Valores</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li><strong>Calidad:</strong> El legado de nuestros maestros.</li>
+                            <li><strong>Transparencia:</strong> Sabrás siempre en qué se invierte tu dinero y cómo avanza tu obra.</li>
+                            <li><strong>Compromiso:</strong> Tu satisfacción es nuestra mejor carta de presentación.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Página de "Servicios" -->
+        <section id="servicios" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold text-gray-800 mb-12">Soluciones a la Medida para tu Hogar o Negocio</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <!-- Servicio 1: Remodelaciones Integrales -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 transform hover:scale-105 transition duration-300">
+                        <img src="integral.jpg" alt="Remodelaciones Integrales" class="w-full h-48 object-cover rounded-lg mb-6 shadow-sm">
+                        <h3 class="text-2xl font-semibold text-blue-700 mb-3">Remodelaciones Integrales</h3>
+                        <p class="text-gray-600 mb-4">
+                            ¿Para quién? Para quienes buscan una renovación completa de su casa o departamento.
+                        </p>
+                        <p class="text-gray-700 text-sm leading-relaxed">
+                            Desde la demolición y el rediseño de espacios hasta los acabados finales. Nos encargamos de todo el proceso para que no te preocupes por nada.
+                        </p>
+                    </div>
+
+                    <!-- Servicio 2: Ampliaciones y Nuevas Construcciones -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 transform hover:scale-105 transition duration-300">
+                        <img src="ampliaciones.jpg" alt="Ampliaciones y Nuevas Construcciones" class="w-full h-48 object-cover rounded-lg mb-6 shadow-sm">
+                        <h3 class="text-2xl font-semibold text-blue-700 mb-3">Ampliaciones y Nuevas Construcciones</h3>
+                        <p class="text-gray-600 mb-4">
+                            ¿Para quién? Para familias que crecen o necesitan un nuevo espacio (una oficina en casa, una terraza, un cuarto adicional).
+                        </p>
+                        <p class="text-gray-700 text-sm leading-relaxed">
+                            Diseño estructural, construcción de nuevos ambientes, integración con la estructura existente y acabados de primera.
+                        </p>
+                    </div>
+
+                    <!-- Servicio 3: Remodelación de Cocinas y Baños -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 transform hover:scale-105 transition duration-300">
+                        <img src="cocina.jpg" alt="Remodelación de Cocinas y Baños" class="w-full h-48 object-cover rounded-lg mb-6 shadow-sm">
+                        <h3 class="text-2xl font-semibold text-blue-700 mb-3">Remodelación de Cocinas y Baños</h3>
+                        <p class="text-gray-600 mb-4">
+                            ¿Para quién? El corazón de la casa merece una renovación. Modernizamos tus espacios más importantes.
+                        </p>
+                        <p class="text-gray-700 text-sm leading-relaxed">
+                            Cambio de mayólicas y porcelanatos, instalación de nuevos sanitarios y grifería, diseño de mobiliario a medida, instalaciones eléctricas y de gasfitería.
+                        </p>
+                    </div>
+
+                    <!-- Servicio 4: Acabados y Servicios Especializados -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 transform hover:scale-105 transition duration-300">
+                        <img src="acabados.jpg" alt="Acabados y Servicios Especializados" class="w-full h-48 object-cover rounded-lg mb-6 shadow-sm">
+                        <h3 class="text-2xl font-semibold text-blue-700 mb-3">Acabados y Servicios Especializados</h3>
+                        <p class="text-gray-600 mb-4">
+                            ¿Para quién? Para darle el toque final a tu proyecto o renovar la apariencia de tus ambientes.
+                        </p>
+                        <p class="text-gray-700 text-sm leading-relaxed">
+                            Pintura profesional (interiores y exteriores), instalación de pisos (laminados, vinílicos, etc.), trabajos en drywall, carpintería y más.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Página de "Nuestro Proceso" o "¿Cómo Trabajamos?" -->
+        <section id="proceso" class="py-20 bg-white">
+            <div class="container mx-auto px-4 text-center max-w-4xl">
+                <h2 class="text-4xl font-bold text-gray-800 mb-12">Tu Tranquilidad es Parte del Plan</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Paso 1 -->
+                    <div class="bg-blue-50 p-8 rounded-xl shadow-md text-left flex flex-col items-start">
+                        <div class="text-blue-600 text-5xl font-extrabold mb-4">1</div>
+                        <h3 class="text-2xl font-semibold text-blue-700 mb-3">Contacto y Visita Inicial (Gratis)</h3>
+                        <p class="text-gray-700 text-sm leading-relaxed">
+                            Nos cuentas tu idea. Visitamos el espacio para entender tus necesidades, tomar medidas y darte las primeras recomendaciones. Sin costo ni compromiso.
+                        </p>
+                    </div>
+                    <!-- Paso 2 -->
+                    <div class="bg-blue-50 p-8 rounded-xl shadow-md text-left flex flex-col items-start">
+                        <div class="text-blue-600 text-5xl font-extrabold mb-4">2</div>
+                        <h3 class="text-2xl font-semibold text-blue-700 mb-3">Propuesta y Presupuesto Detallado</h3>
+                        <p class="text-gray-700 text-sm leading-relaxed">
+                            Recibirás un presupuesto claro y desglosado. Sabrás exactamente en qué consiste el trabajo y cuánto costará cada etapa. Cero sorpresas.
+                        </p>
+                    </div>
+                    <!-- Paso 3 -->
+                    <div class="bg-blue-50 p-8 rounded-xl shadow-md text-left flex flex-col items-start">
+                        <div class="text-blue-600 text-5xl font-extrabold mb-4">3</div>
+                        <h3 class="text-2xl font-semibold text-blue-700 mb-3">Diseño y Planificación</h3>
+                        <p class="text-gray-700 text-sm leading-relaxed">
+                            Una vez aprobada la propuesta, creamos los planos y el cronograma de trabajo. Definimos juntos los materiales y acabados.
+                        </p>
+                    </div>
+                    <!-- Paso 4 -->
+                    <div class="bg-blue-50 p-8 rounded-xl shadow-md text-left flex flex-col items-start">
+                        <div class="text-blue-600 text-5xl font-extrabold mb-4">4</div>
+                        <h3 class="text-2xl font-semibold text-blue-700 mb-3">¡Manos a la Obra! (Ejecución)</h3>
+                        <p class="text-gray-700 text-sm leading-relaxed">
+                            Nuestro equipo de maestros y operarios, liderado por [Nombre del Socio], empieza la construcción. Tú recibirás informes de avance periódicos para que sigas el progreso desde donde estés.
+                        </p>
+                    </div>
+                    <!-- Paso 5 -->
+                    <div class="bg-blue-50 p-8 rounded-xl shadow-md text-left flex flex-col items-start">
+                        <div class="text-blue-600 text-5xl font-extrabold mb-4">5</div>
+                        <h3 class="text-2xl font-semibold text-blue-700 mb-3">Entrega y Satisfacción</h3>
+                        <p class="text-gray-700 text-sm leading-relaxed">
+                            Realizamos una revisión final contigo para asegurar que cada detalle esté perfecto. Tu proyecto está listo para que lo disfrutes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Página de "Proyectos" o "Portafolio" -->
+        <section id="proyectos" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4 text-center max-w-3xl">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8">Nuestros Proyectos</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                    Estamos construyendo nuestro portafolio digital con proyectos que demuestran nuestra dedicación y calidad. ¡Tu proyecto podría ser el próximo en brillar aquí!
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-12">
+                    Mientras tanto, te invitamos a conocer la calidad de nuestro trabajo agendando una visita a nuestras obras en proceso. Para tu primer proyecto, ofrecemos un pequeño descuento a cambio de permitirnos documentar TODO el proceso (fotos, videos, testimonio). Ese primer caso de éxito será tu mejor herramienta de venta.
+                </p>
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-blue-200">
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-4">¡Tu Proyecto Aquí!</h3>
+                    <img src="proyecto.jpg" alt="Espacio para tu proyecto" class="w-full h-64 object-cover rounded-lg mb-6 shadow-sm">
+                    <p class="text-gray-600">
+                        Imagina tu casa transformada, tu nuevo espacio ampliado, o tu cocina soñada. Aquí mostraremos el antes y el después, el proceso y la satisfacción de nuestros clientes.
+                    </p>
+                    <a href="#contacto" class="inline-block mt-6 bg-blue-600 text-white hover:bg-blue-700 font-bold py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:scale-105">
+                        ¡Sé nuestro próximo caso de éxito!
+                    </a>
+                </div>
+            </div>
+        </section>
+
+                <!-- 
+                Este es el código HTML completo para tu sección de contacto.
+                Ya tiene tu URL de Formspree integrada. ¡Solo copia y pega!
+                -->
+
+                <div style="background-color: #2A38D4; color: white; padding: 60px 20px; text-align: center; font-family: sans-serif;">
+
+                    <h1 style="font-size: 3em; margin-bottom: 10px;">Hagamos Realidad tu Proyecto</h1>
+                    <p style="font-size: 1.2em; margin-bottom: 30px;">Cuéntanos tu idea y te ayudaremos a transformarla en realidad.</p>
+
+                    <!-- ===== INICIO DEL FORMULARIO (YA CONFIGURADO) ===== -->
+                    <form 
+                        action="https://formspree.io/f/xvgqpyan" 
+                        method="POST" 
+                        style="background-color: white; max-width: 600px; margin: auto; padding: 40px; border-radius: 12px; text-align: left; color: #333;"
+                    >
+                        <!-- Campo Nombre -->
+                        <label for="nombre" style="display: block; margin-bottom: 8px; font-weight: bold;">Nombre:</label>
+                        <input type="text" id="nombre" name="Nombre" placeholder="Tu Nombre Completo" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box;">
+
+                        <!-- Campo Email -->
+                        <label for="email" style="display: block; margin-bottom: 8px; font-weight: bold;">Email:</label>
+                        <input type="email" id="email" name="Email" placeholder="tu.correo@ejemplo.com" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box;">
+
+                        <!-- Campo Teléfono -->
+                        <label for="telefono" style="display: block; margin-bottom: 8px; font-weight: bold;">Teléfono / WhatsApp:</label>
+                        <input type="tel" id="telefono" name="Telefono" placeholder="+51 987 654 321" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box;">
+
+                        <!-- Campo Tipo de Proyecto -->
+                        <label for="tipo-proyecto" style="display: block; margin-bottom: 8px; font-weight: bold;">Tipo de Proyecto:</label>
+                        <select id="tipo-proyecto" name="Tipo de Proyecto" style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 20px; background-color: #f9f9f9; -webkit-appearance: none; appearance: none;">
+                            <option>Remodelación Integral</option>
+                            <option>Ampliación de Ambientes</option>
+                            <option>Remodelación de Cocina/Baño</option>
+                            <option>Acabados y Pintura</option>
+                            <option selected>Otro</option>
+                        </select>
+
+                        <!-- Campo Mensaje -->
+                        <label for="mensaje" style="display: block; margin-bottom: 8px; font-weight: bold;">Mensaje (Describe tu idea):</label>
+                        <textarea id="mensaje" name="Mensaje" placeholder="Me gustaría remodelar mi sala y cocina..." required rows="5" style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; font-family: sans-serif;"></textarea>
+
+                        <!-- Botón de Envío -->
+                        <button type="submit" style="width: 100%; padding: 15px; border: none; border-radius: 8px; background-color: #0d6efd; color: white; font-size: 1.1em; font-weight: bold; cursor: pointer;">
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                    <!-- ===== FIN DEL FORMULARIO ===== -->
+
+                    <h2 style="margin-top: 40px; font-size: 1.5em;">O contáctanos directamente:</h2>
+                    <!-- Aquí puedes poner tus íconos y enlaces directos de WhatsApp y Email -->
+
+                </div>
+
+                
+                <!-- 
+                Copia y pega este bloque completo para reemplazar tu sección de contacto directo y el footer.
+                Ya tiene los colores corregidos y los enlaces funcionales.
+                -->
+
+                <div style="background-color: #f0f2f5; color: #333; padding: 50px 20px; text-align: center; font-family: sans-serif;">
+                    
+                    <h2 style="font-size: 1.8em; margin-bottom: 30px; color: #1c1e21;">O contáctanos directamente:</h2>
+
+                    <div style="max-width: 600px; margin: auto; text-align: left;">
+                        
+                        <!-- WhatsApp Link -->
+                        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                            <span style="font-size: 1.5em; margin-right: 15px;">📱</span>
+                            <a href="https://wa.me/51910849781et="_blank" style="color: #007bff; text-decoration: none; font-size: 1.1em;">
+                                +51 910 849 781 (WhatsApp)
+                            </a>
+                        </div>
+
+                        <!-- Email Link -->
+                        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                            <span style="font-size: 1.5em; margin-right: 15px;">📧</span>
+                            <a href="mailto:contactobob@gmail.com" style="color: #007bff; text-decoration: none; font-size: 1.1em;">
+                                contactobob@gmail.com
+                            </a>
+                        </div>
+
+                        <!-- Dirección (Enlace a Google Maps) -->
+                        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                            <span style="font-size: 1.5em; margin-right: 15px;">📍</span>
+                            <!-- Reemplaza 'Tu+Direccion+Fiscal' con tu dirección real para que el enlace funcione -->
+                            <a href="https://www.google.com/maps/search/?api=1&query=Tu+Direccion+Fiscal" target="_blank" style="color: #333; text-decoration: none; font-size: 1.1em;">
+                                Dirección de Oficina: Trujillo, La Libertad
+                            </a>
+                        </div>
+
+    </div>
+</div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 text-center">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 Tu Constructora. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
